@@ -250,3 +250,39 @@ body {
         text-align: center; /* Align text to the center */
       }
   }
+
+  .navbar .luxury img {
+  width: 70px !important;
+  height: 70px !important;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.navbar {
+  height: 90px;
+}
+
+.navbar .luxury {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.cart {
+  color: white;
+  font-size: 28px;
+  text-decoration: none;
+}
+
+.cart {
+    color: white !important;
+    font-size: 42px !important;
+    text-decoration: none !important;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+  
+.navbar {
+    min-height: 90px;
+}
